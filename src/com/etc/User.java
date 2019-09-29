@@ -5,6 +5,9 @@ public class User {
 	private  String name;
 	private int age;
 	
+	private String address;
+	
+	
 	private String password;
 	
 	public String getName() {
@@ -19,4 +22,21 @@ public class User {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
+	
 }
+
+
