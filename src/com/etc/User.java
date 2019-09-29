@@ -11,6 +11,7 @@ public class User {
 	private String password;
 	
 	public String getName() {
+		System.out.println();
 		return name;
 	}
 	public void setName(String name) {
